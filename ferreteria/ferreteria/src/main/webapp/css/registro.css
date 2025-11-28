@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(135deg, #0d6efd, #20c997);
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-header {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn-success {
+  border-radius: 8px;
+  font-weight: 500;
+}

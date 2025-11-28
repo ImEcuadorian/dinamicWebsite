@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Fondo general */
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-body p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Navbar personalizado */
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+.navbar-text i {
+    color: #0dcaf0;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: #212529;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
